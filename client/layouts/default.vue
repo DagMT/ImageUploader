@@ -1,6 +1,8 @@
 <template>
     <div>
-        PyrexPics
+        <p class="text-lg text-green-300">
+            PyrexPics
+        </p>
         <div>
             <select v-model="$colorMode.preference">
                 <option value="system">System</option>
